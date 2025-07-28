@@ -58,8 +58,65 @@
   <div style="background-color:white;color:red;font-weight:bold;font-size:20px;padding:5px;border:2px solid red;margin:5px;">RATAN MUMBAI MORNING<br>123-45-678</div>
   <div style="background-color:white;color:red;font-weight:bold;font-size:20px;padding:5px;border:2px solid red;margin:5px;">RATAN MUMBAI DAY<br>234-56-789</div>
   <div style="background-color:white;color:red;font-weight:bold;font-size:20px;padding:5px;border:2px solid red;margin:5px;">RATAN MUMBAI NIGHT<br>345-67-890</div>
+
 </div>
-<b>&#x1f4e1; LIVE UPDATE </b><img src="data:image/gif;base64,R0lGODlhGQALANUgAP729va5ue+Ght8REf/8/OMvL/3v7+hOTu13d/jKyu15efCQkPOjo/WysuZDQ+tqauQzM/vd3frY2OIkJP77++leXuZEROpeXvvk5PjHx/OmpvGTk+ZAQOIgIN0AAP///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFFAAgACwAAAAAGQALAAAGa0CPcEgsGo/I5FHzWXgSAM9nOkV8BoNPwBMgEDWgKFSqGV4+isXH4DFgvqCPZiwfZkH4j4OwHYLxYVJUUQYgBAuFaF8fEx+BdUMBcQOSV4seTFGQQmBsCh9elwMEmlQfFhBaQgQSSq6vsEdBACH5BAUUACAALAAAAAAZAAsAAAZnwI9wSCwaj8jkcdNhfBCcT4dDjXaEHcFHUCBuPFGodDPMcBqMzuFzqHg9nY04Tux47p1IQTv83sFSHYJRBx4FDIUdDV4dFHZWZEMCcFuUjB9MkG9rDR1dlx8FVlVRUnwFD0qqq6xHQQA7" width="20" height="10" alt="RATAN MUMBAI" /></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RATAN MUMBAI Charts</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Georgia, serif;
+      text-align: center;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      background-color: yellow;
+      color: black;
+      cursor: pointer;
+    }
+    iframe {
+      width: 95%;
+      height: 80vh;
+      border: 3px solid yellow;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📊 RATAN MUMBAI CHARTS 📊</h1>
+
+  <!-- Buttons -->
+  <div>
+    <button onclick="loadChart('penalmorning.html')">RMM Penal</button>
+    <button onclick="loadChart('penalday.html')">RMD Penal</button>
+    <button onclick="loadChart('penalnight.html')">RMN Penal</button>
+    <br/>
+    <button onclick="loadChart('jodimorning.html')">RMM Jodi</button>
+    <button onclick="loadChart('jodiday.html')">RMD Jodi</button>
+    <button onclick="loadChart('jodinight.html')">RMN Jodi</button>
+  </div>
+
+  <!-- Chart Display Area -->
+  <iframe id="chartFrame" src="" title="Chart Display"></iframe>
+
+  <script>
+    function loadChart(file) {
+      document.getElementById('chartFrame').src = file;
+    }
+  </script>
+</body>
+</html>
+
+  <b>&#x1f4e1; LIVE UPDATE </b><img src="data:image/gif;base64,R0lGODlhGQALANUgAP729va5ue+Ght8REf/8/OMvL/3v7+hOTu13d/jKyu15efCQkPOjo/WysuZDQ+tqauQzM/vd3frY2OIkJP77++leXuZEROpeXvvk5PjHx/OmpvGTk+ZAQOIgIN0AAP///////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFFAAgACwAAAAAGQALAAAGa0CPcEgsGo/I5FHzWXgSAM9nOkV8BoNPwBMgEDWgKFSqGV4+isXH4DFgvqCPZiwfZkH4j4OwHYLxYVJUUQYgBAuFaF8fEx+BdUMBcQOSV4seTFGQQmBsCh9elwMEmlQfFhBaQgQSSq6vsEdBACH5BAUUACAALAAAAAAZAAsAAAZnwI9wSCwaj8jkcdNhfBCcT4dDjXaEHcFHUCBuPFGodDPMcBqMzuFzqHg9nY04Tux47p1IQTv83sFSHYJRBx4FDIUdDV4dFHZWZEMCcFuUjB9MkG9rDR1dlx8FVlVRUnwFD0qqq6xHQQA7" width="20" height="10" alt="RATAN MUMBAI" /></div>
   <span style="color:red;font-size:20px;">KHAJANA</span><br/><span style="color:blue;font-size:22px;">117-9</span><br/><div class="btn-refresh bg-7" onclick="window.location.reload()">Refresh</div><hr>
       <span style="color:red;font-size:20px;">MAHARANI DAY</span><br/><span style="color:blue;font-size:22px;">379-92-129</span><br/><div class="btn-refresh bg-7" onclick="window.location.reload()">Refresh</div><hr>
       <span style="color:red;font-size:20px;">THANE BAZAR DAY</span><br/><span style="color:blue;font-size:22px;">459-84-130</span><br/><div class="btn-refresh bg-7" onclick="window.location.reload()">Refresh</div><hr>
